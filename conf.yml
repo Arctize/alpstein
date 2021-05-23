@@ -1,0 +1,22 @@
+package-manager: pacman # use an AUR helper like yay or paru if AUR packages are specified
+
+package-groups:
+    - base-devel
+    - gnome
+
+packages:
+    # base
+    - base
+    - linux
+    - linux-firmware
+    - man-db
+
+    # toolchains
+    - rustup
+
+    # applications
+    - firefox
+
+    # dev
+    - git
+
